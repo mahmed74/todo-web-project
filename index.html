@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+    <title>Todo App</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="logo">
+            <h5>Todo app by ahmed</h5>
+        </div>
+        <div class="screen">
+            <input type="text" height="70px" class="screenInput" id="todoInputID" placeholder="Add your Task">
+            <button onclick="addtodo()" class="btn">Add Items</button>
+            <button onclick="deleteAll()" class="btn">Delete All</button>
+        </div>
+        <div class="tasks">
+            <ul id="listID">
+
+            </ul>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
